@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        myfun()
+
+         function myfun(){
+            var data = prompt("enter your word");
+            document.write(data+"<br>");
+            var new_data = data.replace(/[a,e,i,o,u]/g,"");
+            document.write(new_data);
+         }
+
+    </script>
+</body>
+</html>
